@@ -2,7 +2,7 @@ import json
 import re
 from urllib.request import Request, urlopen
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 REPOSITORY = "RoguePixelLabs/StitchVert"
 RELEASES_URL = f"https://github.com/{REPOSITORY}/releases"
 LATEST_URL = f"https://api.github.com/repos/{REPOSITORY}/releases/latest"

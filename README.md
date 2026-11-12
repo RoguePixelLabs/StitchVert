@@ -1,6 +1,6 @@
 # StitchVert
 
-Download the Windows x64 installer from [GitHub Releases](https://github.com/RoguePixelLabs/StitchVert/releases). Setup installs StitchVert for the current user and includes Python and Tk. To run from source on Windows, use **Launch StitchVert.cmd** or run `python app.pyw` with Python 3.10 or later and Tkinter.
+Download the Windows x64 installer from [GitHub Releases](https://github.com/RoguePixelLabs/StitchVert/releases). Setup installs StitchVert for the current user and includes Python and Tk. The desktop shortcut is selected by default and can be unchecked during setup. To run from source on Windows, use **Launch StitchVert.cmd** or run `python app.pyw` with Python 3.10 or later and Tkinter.
 
 Use **Help → Check for updates** to compare the installed version with the latest stable GitHub release. If a newer version is available, StitchVert can open the release page so you can download and run the installer. Conversion and previews work offline.
 

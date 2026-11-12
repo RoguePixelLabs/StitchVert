@@ -27,8 +27,12 @@ WizardStyle=modern
 [Files]
 Source: "..\build\installer-stage\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
+[Tasks]
+Name: "desktopicon"; Description: "Create a desktop shortcut"
+
 [Icons]
 Name: "{autoprograms}\StitchVert"; Filename: "{app}\runtime\pythonw.exe"; Parameters: """{app}\app.pyw"""; WorkingDir: "{app}"
+Name: "{autodesktop}\StitchVert"; Filename: "{app}\runtime\pythonw.exe"; Parameters: """{app}\app.pyw"""; WorkingDir: "{app}"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\runtime\pythonw.exe"; Parameters: """{app}\app.pyw"""; WorkingDir: "{app}"; Description: "Launch StitchVert"; Flags: nowait postinstall skipifsilent
